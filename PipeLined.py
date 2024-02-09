@@ -1,4 +1,8 @@
 import re, io, json, numpy as np
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer, SnowballStemmer
